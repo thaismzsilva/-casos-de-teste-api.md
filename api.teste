@@ -1,0 +1,15 @@
+# Testes de API
+
+## Endpoint: /posts
+
+### CT01 - GET posts
+- Esperado: Retornar status 200
+
+### CT02 - POST novo post
+- Esperado: Criar registro com sucesso
+
+### CT03 - DELETE post
+- Esperado: Status 200 ou 204
+
+### CT04 - POST inválido
+- Esperado: Retornar erro 400
